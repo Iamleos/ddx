@@ -1,0 +1,195 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1">
+    <meta name="keywords" content="斗地主,麻将,单机斗地主,欢乐斗地主,真人斗地主,斗地主手机版,四川麻将,dota,电子竞技,网页,游戏,大厅,免费下载,斗地主赢话费" />
+    <meta name="description" content="JJ
+比赛，JJ斗地主，是全国最大的斗地主、麻将等棋牌类游戏在线竞技平台。以竞技为核心，通过组织比赛的形式，让您在紧张刺激中享受游戏的乐趣。
+除棋牌游戏之外，还涵盖了5599网页游戏平台、JJ-Dota对战平台、3399小游戏平台、无线应用等互联网业务" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Cache-Control" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <meta name="baidu_union_verify" content="6058559685c9b12b104519fd5b9bdbe5">
+    <meta property="qc:admins" content="2422670034622636" />
+    <meta name="alexaVerifyID" content="T9mNbIizcyrAX-UdlXHJmJSQwUU" />
+    <meta property="qc:admins" content="2351204176622636" />
+    <title>用户登录</title>
+    <link href="https://css.cache.jj.cn/css/platform/web/www/jj_pub_nav.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://css.cache.jj.cn/css/www/login/login_2018.css"/>
+    <script src="https://css.cache.jj.cn/js/jjmatch/gbk/core/event.js" type="text/javascript"></script>
+    <script src="https://css.cache.jj.cn/js/jjmatch/gbk/core/network.js" type="text/javascript"></script>
+    <script src="https://css.cache.jj.cn/js/jjmatch/gbk/base/check.js" type="text/javascript"></script>
+    <script src="https://css.cache.jj.cn/js/jquery.js" type="text/javascript"></script>
+    <script src="https://verify.jj.cn/verify2/create_vc_js2.php" type="text/javascript"></script>
+    <script src="https://css.cache.jj.cn/js/jjmatch/gbk/core/handlers.js" type="text/javascript"></script>
+    <script src="https://css.cache.jj.cn/js/jjmatch/gbk/core/cookie.js" type="text/javascript"></script>
+    <script src="https://css.cache.jj.cn/js/jjmatch/gbk/base/layer.js" type="text/javascript"></script>
+    <script type="text/javascript">
+	try{document.domain = 'jj.cn';}catch(e){};
+	(function(){
+		function getQueryString(name) {
+            var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
+            var r = location.search.substr(1).match(reg);
+            if (r != null){
+                return unescape(decodeURI(r[2]));
+            }
+            return null;
+        }
+		var comeurl = getQueryString("comeurl") || 'http://www.jj.cn/';
+		if(/gt-p1000|iphone|android|phone|mobile|wap|netfront|java|operamobi|operamini|ucweb|windowsce|symbian|series|webos|sony|blackberry|dopod|nokia|samsung|palmsource|xda|pieplus|meizu|midp|cldc|motorola|foma|docomo|up.browser|up.link|blazer|helio|hosin|huawei|novarra|coolpad|webos|techfaith|palmsource|alcatel|amoi|ktouch|nexian|ericsson|philips|sagem|wellcom|bunjalloo|maui|smartphone|iemobile|spice|bird|zte-|longcos|pantech|gionee|portalmmm|jigbrowser|hiptop|benq|haier|^lct|320x320|240x320|176x220|mqqbrowser/i.test(navigator.userAgent.toLowerCase())){
+			
+			window.location.href = 'http://m.jj.cn/login/login.html?comeurl='+encodeURIComponent(comeurl);
+		}
+	})();
+	</script>
+</head>
+<body>
+    <div class="w_reg_1200" id="body_width">
+        <div class="g_header">
+            <div class="m_header_area">
+                <a href="http://www.jj.cn"></a>
+            </div>
+        </div>
+        <div class="g_body">
+            <div class="m_body_area">
+                <div class="bg_box"></div>
+                <div id="banner_box">
+                    <div class="u_banner_item">
+                        <div class="img_box">
+                            <img src="//img1.cache.jj.cn/images/login/2018/banner01_1280.png" alt="JJ比赛">
+                        </div>
+                    </div>
+                </div>
+                <div class="u_login_box">
+                    <div class="big_gold_box" id="big_gold_box"></div>
+                    <div class="login_form">
+                        <div class="line_title">
+                            <span class="login_title">登录</span>
+                            <span class="go_back">
+                                <a href="http://www.jj.cn" target="_blank">返回首页</a>
+                            </span>
+                        </div>
+                        <div class="line_error_msg">                            
+                            <span id="err_msg_yzm"></span>
+                            <span id="err_msg_psw"></span>
+                            <span id="err_msg"></span>                          
+                        </div>
+                        <form ajax="json" action="https://login.jj.cn/user/login.php" method="post" class="form_box" id="form_box">
+                            <input type="hidden" name="comeurl" value="http://my.jj.cn/account/account.php">
+                            <input type="hidden" name="if_header" value="">
+                            <input type="hidden" name="location" value="1">
+                            <input type="hidden" name="act" id="act" value="login">
+                            <input type="hidden" name="ltype" value="" id="ltypeid">
+                            <input type="hidden" id="verifyTextVid" name="verifyTextVid" value="" />
+                            <input type="hidden" id="verifyTextAstr" name="verifyTextAstr" value="" />
+                            <div class="user_name_box">
+                                <input type="text" id="user_name" name="username" class="form_input" placeholder="账号/手机号/邮箱" value="">
+                                <label for="user_name" id="user_name_label">账号/手机号/邮箱</label>
+                                <span id="clear_btn" class="clear_btn"></span>
+                            </div>
+                            <div class="password_box">
+                                <input type="password" id="user_password" name="password" class="form_input" placeholder="请输入您的密码">
+                                <label for="user_password" id="user_password_label">请输入您的密码</label>
+                            </div>
+                            <div class="find_pwd">
+                                <a href="http://my.jj.cn/complaint/" target="_blank" class="one_span">找回密码</a>
+                                <span class="two_span">|</span>
+                                <a href="//my.jj.cn/complaint/account_help.php" target="_blank" class="one_span">找回用户名</a>
+                                <a href="//www.jj.cn/reg/reg.html" target="_blank" class="four_span">注册</a>
+                            </div>
+                            <div class="yzm_box" id="yzm_box"></div>
+                            <div class="login_btn_box">
+                                <div class="button" id="button">登 录</div>
+                                <div class="loading" id="loading" style="display: none;">
+                                    <img src="//img1.cache.jj.cn/images/login/2015/jiazai.gif" alt="">
+                                </div>
+                            </div>
+                            <!--
+                            <div class="other_login_box">
+                                <div class="title">合作登录方式</div>
+                                <div id="other_login_btn">
+                                    <a href="javascript:void(0);" class="qq_bt" id="qq_bt"></a>
+                                    <a href="javascript:void(0);" class="wx_bt" id="wx_bt"></a>
+                                    <a href="javascript:void(0);" class="wb_bt" id="wb_bt"></a>
+                                </div>
+                            </div>
+                            -->
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- footer start -->
+        <div class="g_index_foot">
+            <div class="m_foot_con">
+                <a href="http://www.jj.cn" class="u_foot_logo"></a>
+                <div class="m_snav">
+                    <a href="//www.jj.cn/aboutus/" target="_blank" class="f_bl">关于我们</a>
+                    <a href="http://www.jj.cn/aboutus/contactus.html" target="_blank">联系我们</a>
+                    <a href="http://www.jj.cn/protection/" target="_blank">家长监护</a>
+                    <a href="http://jj.hotjob.cn/wt/jj/web/index" target="_blank">加入竞技世界</a>
+                    <a href="//www.jj.cn/agreement/privacy_protocols.html?type=pc_web" target="_blank">隐私政策</a>
+                    <a href="//www.jj.cn/agreement/regService.html" class="f_br" target="_blank">用户协议</a>
+                </div>
+                <p>
+                    竞技世界（北京）网络技术有限公司 版权所有 Copyright&#169;2007- <span id="year_now">2018</span>
+                    <a href="http://www.itrust.org.cn/yz/pjwx.asp?wm=1670576906" target="_blank">京ICP证080116号</a> 京ICP备09016390 号
+                    <br>
+                    <img src="//img1.cache.jj.cn/www/2017/police.png">
+                    <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010802025184" target="_blank">京公网安备 11010802025184号</a>
+                    <a href="//www.jj.cn/aboutus/wenhuaxuke.html" target="_blank">文网文[2009]279号</a>
+                    <a target="_blank" href="http://sq.ccm.gov.cn:80/ccnt/sczr/service/business/emark/gameNetTag/F35FC9BEF89052AEE040007F01003007">
+                    文网游备字（2010）C-CBG002号</a>
+                    <script charset="gb2312" type="text/javascript" src="//s67.cnzz.com/stat.php?id=738042&amp;web_id=738042&amp;show=pic"></script>
+                </p>
+                <div class="cnzz" id="cnzz"></div>
+                <div class="m_img_list">
+                    <a href="https://v.pinpaibao.com.cn/authenticate/cert/?site=www.jj.cn&amp;at=business" target="_blank">
+                        <img src="//img1.cache.jj.cn/www/2017/safe.gif">
+                    </a>
+                    <a href="https://ss.knet.cn/verifyseal.dll?sn=e16042111011663176jiqj000000&amp;a=1&amp;pa=0.4645828708667681" target="_blank">
+                        <img src="//img1.cache.jj.cn/www/2017/kexin.gif">
+                    </a>
+                    <a href="http://www.hd315.gov.cn/beian/view.asp?bianhao=010202013121000008" target="_blank">
+                        <img src="//img1.cache.jj.cn/www/2017/biaoshi.gif">
+                    </a>
+                    <a href="http://www.itrust.org.cn/home/index/wx_certifi/wm/1670576906.html" target="_blank">
+                        <img src="//img1.cache.jj.cn/www/2017/wangxin.gif">
+                    </a>
+                    <a href="http://sq.ccm.gov.cn:80/ccnt/sczr/service/business/emark/gameNetTag/F35FC9BEF89052AEE040007F01003007" target="_blank">
+                        <img src="//img1.cache.jj.cn/www/2017/wen.gif">
+                    </a>
+                    <a class="aa a1" href="javascript:;" style="cursor: default;">
+                        <img src="//img1.cache.jj.cn/images/newIndex/2013-0.1v/guangdaotouimg.gif" style="height:40px">
+                    </a>
+                </div>
+                <div class="m_hot_line">
+                    <span>24小时全国服务热线</span>
+                    <strong>400-111-7777</strong>
+                    <a href="javascript:;" class="zhiCustomBtn">在线客服</a>
+                </div>
+                <script src="https://www.sobot.com/chat/frame/js/entrance.js?sysNum=6b76159f05bb467fa4f8bc0e1a1f66cf" class="zhiCustomBtn"
+                    id="zhichiScript"></script>
+            </div>
+        </div>
+        <!-- footer end -->
+    </div>
+    <script src="https://css.cache.jj.cn/js/login/2018/login.js"></script>
+    <script src="https://css.cache.jj.cn/js/login/2018/fingerprint2.min.js"></script>
+	  <script>	
+			var fingerprint = new Fingerprint2().get(function(result, components) {
+	    //console.log(result); //a hash, representing your device fingerprint
+	    //console.log(components); // an array of FP components
+	    //alert(result);
+	    var data = {'fingerprint' : result};
+	    var request_url = 'https://support.jj.cn/api/fingerprint.php';
+		  window.jjmatch.network.get(request_url, data, function(){
+		  	console.log('fingerprint collect recorded');  	    
+		  }, 'jsonp');  
+		})
+	  </script>
+</body>
+
+</html>
